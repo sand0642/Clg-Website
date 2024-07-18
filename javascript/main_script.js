@@ -1,10 +1,8 @@
-var navLinks= document.getElementById("navLinks");
+var navLinks = document.getElementById("navLinks");
 
-function showmenu(){
-    navLinks.style.right="0";
-}   
-function hidemenu(){
-    navLinks.style.right="-200px";
+function showmenu() {
+  navLinks.style.right = "0";
 }
-
-// document.addEventListener('contextmenu', event => event.preventDefault());
+function hidemenu() {
+  navLinks.style.right = "-200px";
+}
